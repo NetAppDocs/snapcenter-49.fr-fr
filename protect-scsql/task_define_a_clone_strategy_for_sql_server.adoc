@@ -1,0 +1,53 @@
+---
+permalink: protect-scsql/task_define_a_clone_strategy_for_sql_server.html 
+sidebar: sidebar 
+keywords: clone strategy 
+summary: 'La définition d"une stratégie de clonage vous permet de cloner votre base de données avec succès.' 
+---
+= Définissez une stratégie de clonage pour SQL Server
+:allow-uri-read: 
+:icons: font
+:imagesdir: ../media/
+
+
+[role="lead"]
+La définition d'une stratégie de clonage vous permet de cloner votre base de données avec succès.
+
+. Examinez les limites liées aux opérations de clonage.
+. Choisissez le type de clone dont vous avez besoin.
+
+
+
+
+== Limites des opérations de clonage
+
+Avant de cloner les bases de données, vous devez connaître les limites des opérations de clonage.
+
+* Si vous utilisez une version d'Oracle comprise entre 11.2.0.4 et 12.1.0.1, l'opération de clonage sera effectuée
+état bloqué lorsque vous exécutez la commande _renamedg_. Vous pouvez appliquer le correctif Oracle 19544733
+pour résoudre ce problème.
+* Clonage de bases de données à partir d'une LUN directement connectée à un hôte (par exemple, à l'aide de
+Initiateur Microsoft iSCSI sur un hôte Windows) sur un VMDK ou une LUN RDM sur le même hôte
+L'hôte Windows, ou un autre hôte Windows, ou vice versa, n'est pas pris en charge.
+* Le répertoire racine du point de montage du volume ne peut pas être un répertoire partagé.
+* Si vous déplacez une LUN contenant un clone vers un nouveau volume, le clone ne peut pas être supprimé.
+
+
+
+
+== Types d'opérations de clonage
+
+Vous pouvez utiliser SnapCenter pour cloner une base de données de sauvegarde SQL Server ou une base de données de production.
+
+* Clonage à partir d'une sauvegarde de base de données
++
+La base de données clonée peut servir de base pour le développement de nouvelles applications et faciliter l'isolation
+erreurs d'application survenant dans l'environnement de production. La base de données clonée peut également être
+utilisé pour la récupération à partir d'erreurs de base de données logicielle.
+
+* Cycle de vie des clones
++
+Vous pouvez utiliser SnapCenter pour planifier des tâches de clonage récurrentes qui se produisent lors de la production
+la base de données n'est pas occupée.
+
+
