@@ -8710,4 +8710,8 @@ Les noms d'utilisateur doivent être formatés en tant qu'utilisateur@domaine ou
   <block id="66533c4e3134a6b220ad1336cd288c49" category="sidebar">Configuration du contrôle d'accès basé sur des rôles (RBAC)</block>
   <block id="5d4caff07857398d579cdda92ce3f34f" category="sidebar">Provisionnement de votre système de stockage</block>
   <block id="0daccd45abdac281e7508c5de0fa492c" category="sidebar">Provisionnement du stockage sur les hôtes Windows</block>
+  <block id="4db35e04fa48549bd85b1a6d4d43fb09" category="list-text">SnapCenter 4.9 P1 et versions ultérieures prennent en charge la protection des workloads Oracle et Microsoft SQL dans le cloud VMware sur les environnements de data Center Software-defined (SDDC) Amazon Web Services (AWS).</block>
+  <block id="38012dbc6542f17135111019d1839fa1" category="inline-link">Protégez les workloads Oracle et Microsoft SQL à l'aide de NetApp SnapCenter dans les environnements SDDC VMware Cloud on AWS</block>
+  <block id="0ed5dc7c29240e260dcaa51a555687fb" category="paragraph">Pour plus d'informations, voir
+<block ref="201ce3916702c203a3d45750d51a4039" category="inline-link-rx"></block>.</block>
 </blocks>
