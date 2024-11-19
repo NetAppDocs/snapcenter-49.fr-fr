@@ -20,7 +20,7 @@ Associez une ou plusieurs règles au groupe de ressources pour définir le type 
 
 L'image suivante illustre la relation entre les ressources, les groupes de ressources et les politiques des bases de données :
 
-image::../media/sco_resourcegroup_policy.gif[stratégie de groupe de ressources sco]
+image::../media/sco_resourcegroup_policy.gif[stratégie de groupe de ressources]
 
 .Étapes
 . Dans le volet de navigation de gauche, sélectionnez *Ressources*, puis le plug-in approprié dans la liste.

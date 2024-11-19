@@ -139,7 +139,7 @@ NOTE: La licence d'essai (le numéro de série se terminant par 50) ne peut pas 
 .Étapes
 . Dans le volet de navigation de gauche, sélectionnez *Paramètres*.
 . Dans la page Paramètres, sélectionnez *logiciel*.
-. Dans la section Licence de la page logiciel, sélectionnez *Ajouter* (image:../media/add_policy_from_resourcegroup.gif["Une icône plus"]).
+. Dans la section Licence de la page logiciel, sélectionnez *Ajouter*.
 . Dans l'assistant Ajouter une licence SnapCenter, sélectionnez l'une des méthodes suivantes pour obtenir la licence que vous souhaitez ajouter :
 +
 |===

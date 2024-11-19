@@ -107,7 +107,7 @@ Sélectionnez *Supprimer les journaux d'archive des destinations qui font partie
 
 |===
 +
-image:../media/sco_backuppolicy_prunning.gif[""]
+image:../media/sco_backuppolicy_prunning.gif["élagage de la stratégie de sauvegarde"]
 
 
 

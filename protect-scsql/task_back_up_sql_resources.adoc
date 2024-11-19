@@ -41,12 +41,12 @@ Par exemple, clienttext_policy_hostname ou Resource_hostname. Par défaut, un ho
 +
 .. Dans la section stratégies, sélectionnez une ou plusieurs stratégies dans la liste déroulante.
 +
-Vous pouvez créer une stratégie en sélectionnant *image:../media/add_policy_from_resourcegroup.gif[""]* pour démarrer l'assistant de règles.
+Vous pouvez créer une stratégie en sélectionnant image:../media/add_policy_from_resourcegroup.gif["ajouter une stratégie à partir d'un groupe de ressources"] pour lancer l'assistant de stratégie.
 
 +
 Dans la section *configurer les plannings pour les stratégies sélectionnées*, les stratégies sélectionnées sont répertoriées.
 
-.. Sélectionnez *image:../media/add_policy_from_resourcegroup.gif[""]* Dans la colonne configurer les programmes de la stratégie pour laquelle vous souhaitez configurer un planning.
+.. Sélectionnez image:../media/add_policy_from_resourcegroup.gif["ajouter une stratégie à partir d'un groupe de ressources"] dans la colonne configurer les plannings la stratégie pour laquelle vous souhaitez configurer une planification.
 .. Dans *Ajouter des horaires pour la police* `policy_name` Configurez la planification, puis sélectionnez *OK*.
 +
 Ici `policy_name` est le nom de la stratégie que vous avez sélectionnée.
@@ -68,7 +68,7 @@ Vous pouvez sélectionner plusieurs serveurs de vérification (hôte local ou h�
 NOTE: La version du serveur de vérification doit être égale ou supérieure à la version de l'édition du serveur SQL qui héberge la base de données primaire.
 
 .. Sélectionnez *Charger les localisateurs secondaires pour vérifier les sauvegardes sur le système de stockage secondaire* afin de vérifier vos sauvegardes sur le système de stockage secondaire.
-.. Sélectionnez la stratégie pour laquelle vous souhaitez configurer votre planning de vérification, puis sélectionnez *image:../media/add_policy_from_resourcegroup.gif[""]*.
+.. Sélectionnez la stratégie pour laquelle vous souhaitez configurer votre planification de vérification, puis sélectionnez image:../media/add_policy_from_resourcegroup.gif["ajouter une stratégie à partir d'un groupe de ressources"].
 .. Dans la boîte de dialogue Ajouter des programmes de vérification _policy_name_, effectuez les opérations suivantes :
 +
 |===

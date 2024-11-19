@@ -26,14 +26,13 @@ link:task_back_up_resource_groups_sap_hana.html["Sauvegarder les groupes de ress
 
 * Si vous souhaitez créer une sauvegarde basée sur des fichiers alors qu'une ou plusieurs bases de données de tenant sont en panne, définissez le paramètre ALLOW_FILE_BASED_BACKUP_IFINA_TENANTS_PRESIDENT sur *YES* dans le fichier de propriétés HANA à l'aide de `Set-SmConfigSettings` applet de commande.
 +
-Les informations relatives aux paramètres pouvant être utilisés avec la cmdlet et leurs descriptions peuvent être obtenues en exécutant Get-Help _command_name_. Vous pouvez également vous reporter au https://library.netapp.com/ecm/ecm_download_file/ECMLP2886205["Guide de référence de l'applet de commande du logiciel SnapCenter"]
+Les informations relatives aux paramètres pouvant être utilisés avec la cmdlet et leurs descriptions peuvent être obtenues en exécutant Get-Help _command_name_. Vous pouvez également vous référer au https://docs.netapp.com/us-en/snapcenter-cmdlets-49/index.html["Guide de référence de l'applet de commande"^]
 
 * Pour les commandes pré et post pour les opérations de mise au repos, de copie Snapshot et d'annulation de la mise au repos, vous devez vérifier que les commandes existent dans la liste de commandes disponible sur l'hôte du plug-in à partir des chemins suivants :
 +
-Pour Windows : _C:\Program Files\NetApp\SnapCenter\SnapCenter\SnapCenter Plug-in Creator\etc\allowed_commands_list.txt_
+** Pour Windows : _C:\Program Files\NetApp\SnapCenter\Snapcenter Plug-in Creator\etc\allowed_commands.config_
+** Linux : _/var/opt/SnapCenter/scc/allowed_commands.config
 
-+
-Pour Linux : _/var/opt/snapcenter/scc/allowed_commands_list.txt_
 
 
 
@@ -44,7 +43,7 @@ NOTE: Si les commandes n'existent pas dans la liste de commandes, l'opération �
 . Dans le volet de navigation de gauche, sélectionnez *Ressources*, puis sélectionnez le plug-in approprié dans la liste.
 . Dans la page ressource, filtrez les ressources de la liste déroulante *View* en fonction du type de ressource.
 +
-Sélectionnez *image:../media/filter_icon.png[""]*, puis sélectionnez le nom d'hôte et le type de ressource pour filtrer les ressources. Vous pouvez ensuite sélectionner image:../media/filter_icon.png[""] pour fermer le volet de filtre.
+Sélectionnez image:../media/filter_icon.gif["icône de filtre"], puis sélectionnez le nom d'hôte et le type de ressource pour filtrer les ressources. Vous pouvez ensuite choisir de image:../media/filter_icon.gif["icône de filtre"] fermer le volet de filtre.
 
 . Sélectionnez la ressource à sauvegarder.
 . Sur la page ressource, sélectionnez *utiliser le format de nom personnalisé pour la copie Snapshot*, puis entrez un format de nom personnalisé que vous souhaitez utiliser pour le nom de la copie Snapshot.
@@ -107,7 +106,7 @@ Sélectionnez *autre*, puis entrez la commande pour créer une copie Snapshot.
 
 |===
 +
-image:../media/application_settings.gif[""]
+image:../media/application_settings.gif["paramètres de l'application"]
 
 
 
@@ -116,12 +115,12 @@ image:../media/application_settings.gif[""]
 .. Sélectionnez une ou plusieurs stratégies dans la liste déroulante.
 +
 
-NOTE: Vous pouvez également créer une stratégie en cliquant sur *image:../media/add_policy_from_resourcegroup.gif[""]*.
+NOTE: Vous pouvez également créer une stratégie en cliquant sur image:../media/add_policy_from_resourcegroup.gif["ajouter une stratégie à partir d'un groupe de ressources"].
 
 +
 Dans la section configurer les plannings des stratégies sélectionnées, les stratégies sélectionnées sont répertoriées.
 
-.. Sélectionnez *image:../media/add_policy_from_resourcegroup.gif[""]* Dans la colonne configurer les programmes de la stratégie pour laquelle vous souhaitez configurer un planning.
+.. Sélectionnez image:../media/add_policy_from_resourcegroup.gif["ajouter une stratégie à partir d'un groupe de ressources"] dans la colonne configurer les plannings la stratégie pour laquelle vous souhaitez configurer une planification.
 .. Dans la boîte de dialogue Ajouter des plannings pour la stratégie _nom_règle_, configurez la planification, puis sélectionnez *OK*.
 +
 _policy_name_ est le nom de la stratégie que vous avez sélectionnée.

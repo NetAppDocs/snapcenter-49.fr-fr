@@ -52,10 +52,7 @@ SnapCenter inclut les fonctionnalités clés suivantes :
 La protection des données est prise en charge pour Microsoft Exchange Server, Microsoft SQL Server, les bases de données Oracle sous Linux ou AIX, les bases de données SAP HANA et les systèmes de fichiers hôtes Windows s'exécutant sur des systèmes ONTAP.
 
 +
-La protection des données est également prise en charge pour d'autres applications et bases de données standard ou personnalisées grâce à une structure permettant de créer des plug-ins SnapCenter définis par l'utilisateur. La protection des données est ainsi assurée pour d'autres applications et bases de données depuis une seule fenêtre. En tirant parti de cette structure, NetApp a publié des plug-ins personnalisés SnapCenter pour IBM DB2, MongoDB, MySQL, etc. Sur le NetApp Automation Store.
-
-+
-https://automationstore.netapp.com/home.shtml["Stockage NetApp Storage Automation Store"^]
+La protection des données est également prise en charge pour d'autres applications et bases de données standard ou personnalisées grâce à une structure permettant de créer des plug-ins SnapCenter définis par l'utilisateur. La protection des données est ainsi assurée pour d'autres applications et bases de données depuis une seule fenêtre. En tirant parti de ce framework, NetApp a publié des plug-ins personnalisés SnapCenter pour IBM DB2, MongoDB, MySQL, etc.
 
 * Sauvegardes basées sur des règles
 +
@@ -85,7 +82,7 @@ SnapCenter inclut des API REST pour la plupart des fonctionnalités d'intégrati
 Pour plus d'informations sur les API REST, voir https://docs.netapp.com/us-en/snapcenter/sc-automation/overview_rest_apis.html["Présentation de l'API REST"].
 
 +
-Pour plus d'informations sur les applets de commande Windows, voir https://library.netapp.com/ecm/ecm_download_file/ECMLP2886205["Guide de référence de l'applet de commande du logiciel SnapCenter"^].
+Pour plus d'informations sur les applets de commande Windows, reportez-vous à la section https://docs.netapp.com/us-en/snapcenter-cmdlets-49/index.html["Guide de référence de l'applet de commande"^].
 
 +
 Pour plus d'informations sur les commandes UNIX, voir https://library.netapp.com/ecm/ecm_download_file/ECMLP2886206["Guide de référence sur les commandes du logiciel SnapCenter"^].
@@ -118,7 +115,7 @@ La plateforme SnapCenter est basée sur une architecture multiniveaux qui inclut
 
 SnapCenter prend en charge les data centers multisites. Le serveur SnapCenter et l'hôte du plug-in peuvent se trouver à différents emplacements géographiques.
 
-image::../media/snapcenter_architecture.gif[architecture SnapCenter]
+image::../media/snapcenter_architecture.gif[Architecture de SnapCenter]
 
 
 
@@ -158,7 +155,7 @@ NOTE: Le plug-in SnapCenter pour UNIX n'est pas un plug-in autonome et ne peut p
 
 * Plug-ins personnalisés SnapCenter
 +
-Ces plug-ins personnalisés sont pris en charge par la communauté et peuvent être téléchargés depuis le https://automationstore.netapp.com/home.shtml["Stockage NetApp Storage Automation Store"^].
+Des plug-ins personnalisés sont pris en charge par la communauté.
 
 
 
@@ -266,7 +263,6 @@ Linux ou Windows
  a| 
 Plug-ins personnalisés
  a| 
-https://automationstore.netapp.com/home.shtml["Stockage NetApp Storage Automation Store"^]
  a| 
 Pour les sauvegardes de système de fichiers, Plug-in pour Windows
  a| 
@@ -348,8 +344,6 @@ Les périphériques SAN natifs, les systèmes de fichiers et les dispositions LV
 * Prise en charge de la création de copies en miroir des jeux de sauvegarde sur un autre volume et de la réplication de sauvegarde disque à disque.
 * Prise en charge des environnements Windows et Linux. Dans les environnements Windows, les applications personnalisées via des plug-ins personnalisés peuvent, en option, utiliser le plug-in SnapCenter pour Microsoft Windows pour créer des sauvegardes cohérentes avec le système de fichiers.
 
-
-Des exemples de plug-in personnalisés MySQL, DB2 et MongoDB pour le logiciel SnapCenter peuvent être téléchargés à partir du https://automationstore.netapp.com/home.shtml["Stockage NetApp Storage Automation Store"^].
 
 
 NOTE: Les plug-ins personnalisés MySQL, DB2 et MongoDB sont pris en charge uniquement par les communautés NetApp.
