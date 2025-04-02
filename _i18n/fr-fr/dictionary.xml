@@ -37,7 +37,6 @@
   <block id="9f2c74676fb5b339a2fd4a0ccd75bd1e" category="list-text">Importez les planifications Windows et SQL à partir du dossier du plug-in SnapCenter pour SQL Server à partir de la sauvegarde DR.</block>
   <block id="30f60d67f457bb040dffde52197a54da" category="paragraph-title">Informations associées</block>
   <block id="27e7993c4841ae5fd670cdd945ccb96d" category="inline-link-macro">API de reprise après incident</block>
-  <block id="ab9238ca6f628634f6f6f2cf63502cdb" category="paragraph">Voir la <block ref="44de5c9fafab2e4e76e19e3717abc2e2" category="inline-link-macro-rx"></block> vidéo.</block>
   <block id="d2323db6aa3f6333b1375db7f025bd4e" category="summary">Vous pouvez utiliser les applets de commande PowerShell pour sauvegarder des bases de données SQL Server ou des systèmes de fichiers Windows. Cela inclut la sauvegarde d'une base de données SQL Server ou d'un système de fichiers Windows, notamment l'établissement d'une connexion avec le serveur SnapCenter, la découverte des instances de base de données SQL Server ou des systèmes de fichiers Windows, l'ajout d'une règle, la création d'un groupe de ressources de sauvegarde, la sauvegarde et la vérification de la sauvegarde.</block>
   <block id="c90de0347e94ade70c96034e2ffca3ba" category="list-text">Vous devez avoir préparé l'environnement PowerShell pour exécuter les applets de commande PowerShell.</block>
   <block id="38d7f66964588305ed5bee44db007183" category="list-text">Vous devez avoir ajouté la connexion au système de stockage et créé une autorisation d'accès.</block>
@@ -3016,7 +3015,6 @@ Pour plus d'informations sur l'utilisation de SMBR, reportez-vous à<block ref="
   <block id="f367d650e57088caf7b808e01235016d" category="inline-link">Comment restaurer à partir d'un stockage secondaire dans SMBR avec SnapCenter</block>
   <block id="41b4c689a8b0e3ba8bfecb2a1e608e46" category="list-text"><block ref="41b4c689a8b0e3ba8bfecb2a1e608e46" category="inline-link-rx"></block></block>
   <block id="f004280f6db6ea5f9302c9851388d751" category="inline-link">Restauration de Microsoft Exchange Mail à partir de SnapVault à l'aide de SMBR</block>
-  <block id="1b0fb59a5bc951f7dc82cb43fe362145" category="list-text"><block ref="00a76af185a73b84e54e96058031aef5" category="inline-link-rx"></block></block>
   <block id="a60fa87356b70c5ce00706b76533d56c" category="summary">Vous devez installer le plug-in pour Exchange à partir de l'interface utilisateur SnapCenter. Cependant, si vous ne pouvez pas pour une raison quelconque, vous pouvez exécuter le programme d'installation de Plug-in pour Exchange sans surveillance en mode silencieux à partir de la ligne de commande Windows.</block>
   <block id="d09d97061d337ca456268467edcaf423" category="doc">Installez le plug-in SnapCenter pour l'échange silencieusement à partir de la ligne de commande</block>
   <block id="cd61155a270b0e3cba1a35778af0b9ce" category="list-text">Vous devez avoir sauvegardé vos ressources Microsoft Exchange Server.</block>
@@ -8711,4 +8709,6 @@ Les noms d'utilisateur doivent être formatés en tant qu'utilisateur@domaine ou
   <block id="df572e132ba2f886e42786dc14efa7eb" category="paragraph">Les informations relatives aux paramètres pouvant être utilisés avec la cmdlet et leurs descriptions peuvent être obtenues en exécutant _get-Help nom_commande_. Vous pouvez également vous référer au<block ref="0f4700d6d1275866f1a52a4d6a58d871" category="inline-link-rx"></block>.</block>
   <block id="86e30ad0a02c8fe2c3f0a07c63314b32" category="image-alt">mettre à niveau le workflow SnapCenter</block>
   <block id="d127c7070231e882bd97e8f2760d0a4f" category="sidebar">Documentation du logiciel SnapCenter</block>
+  <block id="c23d56866a5b11fd0d8dc189fcf21298" category="list-text"><block ref="341e3fddad4b27511133b6917a75bb8a" category="inline-link-rx"></block></block>
+  <block id="57cf9c4ee485623172a5c60cbee423a4" category="paragraph">Voir la <block ref="96716f545c5cf1a209bf10c1a798ce38" category="inline-link-macro-rx"></block> vidéo.</block>
 </blocks>
